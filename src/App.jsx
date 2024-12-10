@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { Navbar } from './Components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -32,9 +31,8 @@ function App() {
             <Route path="/womens" element={<ShopCategory banner={women_banner} category="women" />} />
             <Route path="/kids" element={<ShopCategory banner={kid_banner} category="kid" />} />
             <Route path="/product" element={<Product />} />
-            <Route path=":productId" element={<Product />} />
-
         
+            <Route path="/product/:productId" element={<Product />} />
 
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<LoginSignup />} />
