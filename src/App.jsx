@@ -14,9 +14,9 @@ import Cart from './pages/Cart.jsx';
 import LoginSignup from './pages/LoginSignup.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 
-import men_banner from './assets/1.jpg'
-import women_banner from './assets/1.jpg'
-import kid_banner from './assets/3.jpg'
+import men_banner from './assets/banner1.jpg'
+import women_banner from './assets/banner2.jpg'
+import kid_banner from './assets/banner3.jpg'
 
 function App() {
   return (

@@ -1,7 +1,7 @@
-import img8 from './8.jpg'
-import img7 from './7.jpg'
-import img6 from './6.jpg'
-import img5 from './5.jpg'
+import img8 from './img1.jpg'
+import img7 from './img2.jpg'
+import img6 from './img3.jpg'
+import img5 from './img4.jpg'
 
 let data_product = [
     {
