@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './CSS/ShopCategory.css';
 
 import img1 from '../assets/img1-1.png';
-import Item from '../Components/Item/item.jsx';
+import Item from '../Components/Item/Item.jsx';
 
 import { ShopContext } from '../Context/ShopContext.jsx';
 
