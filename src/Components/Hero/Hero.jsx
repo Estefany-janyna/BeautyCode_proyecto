@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
-import img1 from '../../assets/1.jpg'
-import img2 from '../../assets/2.jpg'
+import img1 from '../../assets/clapping_13106954.png'
+import img2 from '../../assets/right-arrow_10024749.png'
 import img3 from '../../assets/img1-1.png'
 
 

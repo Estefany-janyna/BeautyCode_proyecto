@@ -1,7 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/logo1.png'
-import instagram_icon from '../../assets/img1-1.png'
+import instagram_icon from '../../assets/instagram_1384015.png'
+import facebook_icon from '../../assets/facebook_2168281.png'
+import whatsapp_icon from '../../assets/whatsapp_4494470.png'
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -22,11 +25,11 @@ const Footer = () => {
             </div>
 
             <div className="footer-icons-container">
-                <img src={instagram_icon } alt="" />
+                <img src={facebook_icon } alt="" />
             </div>
 
             <div className="footer-icons-container">
-                <img src={instagram_icon } alt="" />
+                <img src={whatsapp_icon } alt="" />
             </div>
         </div>
         <div className="footer-copyright">

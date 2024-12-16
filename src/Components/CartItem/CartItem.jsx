@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './CartItem.css'
-import remove_icon from '../../assets/3.jpg';
+import remove_icon from '../../assets/close_17879231.png';
 import { ShopContext } from '../../Context/ShopContext';
 
 const CartItem = () => {
@@ -27,7 +27,7 @@ const CartItem = () => {
                             <p>S/.{e.new_price}</p>
                             <button className='cartitems-quantity'>{cartItems[e.id]}</button>
                             <p>S/.{e.new_price * cartItems[e.id]}</p>
-                            <img className='cartitems-remove-icon' src={remove_icon} width='10px' height='10px' onClick={() => {
+                            <img className='cartitems-remove-icon' src={remove_icon} onClick={() => {
                                 removeFromCart(e.id)
                             }} alt="" />
                         </div>
